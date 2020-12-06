@@ -151,7 +151,7 @@ and (min-device-height: 823px){
     }
 }
 @media only screen
-and (max-device-height: 607px){
+and (max-device-height: 700px){
     #head-m{
         height: 12rem;
     }
