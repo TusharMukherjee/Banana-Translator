@@ -1,0 +1,151 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+#head-m{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 16rem;
+    background-color: #FBBF24;
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    box-shadow: 0px 0px 1.8rem #F59E0B;
+}
+#head{
+    padding: 4rem 1rem;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2.2rem;
+    color: #a16600;
+    text-align: center;
+}
+#banana{
+    margin: -1.5rem;
+    background-color: #fff;
+    height: 7rem;
+    font-size: 3.5rem;
+    text-align: center;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 0px 0.2rem 0.7rem #888888;
+}
+#main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6.5rem;
+}
+#inTxt{
+    height: 7rem;
+    width: 18.8rem;
+    box-shadow: 0px 0.3rem 0.8rem #888888;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+    padding: 1.2rem;
+}
+#here{
+    font-size: 2rem;
+    margin: 1.3rem;
+}
+#outTxt{
+    border: 0.1rem solid #6B7280;
+    height: 7rem;
+    width: 19rem;
+    box-shadow: 0px 0.5rem 0.8rem #888888;
+    border-radius: 0.8rem;
+    padding: 1.2rem;
+    font-size: 1.4rem;
+}
+#trans{
+    margin: 3rem;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    border: 0px;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #fff;
+    background-color: #059669;
+    box-shadow: 0px 0rem 1.2rem #34D399;
+}
+#foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -4rem;
+    padding: 2rem;
+    height: 10rem;
+    background-color: #FBBF24;
+    border-top-right-radius: 2.5rem;
+    border-top-left-radius: 2.5rem;
+    font-size: 2rem;
+    box-shadow: 0.7px 0px 1.8rem #F59E0B;
+    color: #a16600;
+}
+.fa {
+    padding: 0.4rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.9rem;
+  }
+  
+.fa-twitter {
+    color: white;
+  }
+.fa-linkedin {
+   color: white;
+}
+.fa-instagram {
+    color: white;
+  }
+.fa-github {
+    color: white;
+  }
+  @media only screen 
+  and (min-device-height: 667px) 
+  and (max-device-height: 736px){
+      #head-m{
+          height: 9rem;
+      }
+      #head{
+          font-size: 1.8rem;
+          padding: 2.5rem 1rem;
+      }
+      #banana{
+          margin: -1rem;
+          height: 7rem;
+          font-size: 2.3rem;
+      }
+      #main{
+          margin: 6.5rem;
+      }
+      #foot{
+          padding: 1rem;
+          height: 9rem;
+      }
+}
+@media only screen
+and (min-device-height: 823px){
+    #head-m{
+        height: 15rem;
+    }
+    #banana{
+        margin: -1rem;
+        height: 7rem;
+        font-size: 2.8rem;
+    }
+    #head{
+        font-size: 2.8rem;
+        padding: 2.5rem 1rem;
+    }
+    #inTxt{
+        height: 8.5rem;
+        width: 21rem;
+    }
+    #outTxt{
+        height: 8.5rem;
+        width: 21rem;
+    }
+}
