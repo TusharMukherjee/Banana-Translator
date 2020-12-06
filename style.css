@@ -11,7 +11,7 @@
     background-color: #FBBF24;
     border-bottom-left-radius: 4rem;
     border-bottom-right-radius: 4rem;
-    box-shadow: 0px 0px 1.8rem #F59E0B;
+    box-shadow: 0px 0px 1rem #F59E0B;
 }
 #head{
     padding: 4rem 1rem;
@@ -50,10 +50,10 @@
     margin: 1.3rem;
 }
 #outTxt{
-    border: 0.1rem solid #6B7280;
+    border: 0.1rem solid #9fa5b1;
     height: 7rem;
     width: 19rem;
-    box-shadow: 0px 0.5rem 0.8rem #888888;
+    box-shadow: 0px 0.3rem 0.8rem #888888;
     border-radius: 0.8rem;
     padding: 1.2rem;
     font-size: 1.4rem;
@@ -68,7 +68,7 @@
     font-family: 'Didact Gothic', sans-serif;
     color: #fff;
     background-color: #059669;
-    box-shadow: 0px 0rem 1.2rem #34D399;
+    box-shadow: 0px 0rem 1rem #34D399;
 }
 #foot{
     display: flex;
@@ -81,7 +81,7 @@
     border-top-right-radius: 2.5rem;
     border-top-left-radius: 2.5rem;
     font-size: 2rem;
-    box-shadow: 0.7px 0px 1.8rem #F59E0B;
+    box-shadow: 0.7px 0px 1rem #F59E0B;
     color: #a16600;
 }
 .fa {
